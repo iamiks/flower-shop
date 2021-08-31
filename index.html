@@ -5,21 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stile.css">
+    <link rel="stylesheet" href="./normalize.css">
     <title>Document</title>
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-            <div class="logo"><img src="./img/Logo.svg" alt=""></div>
-            <ul>
-                <li><a href="#">Каталог</a></li>
-                <li><a href="#">Доставка и оплата</a></li>
-                <li><a href="#">Отзывы</a></li>
-                <li><a href="#">Спецпредложения</a></li>
-                <li><a href="#">Контакты</a></li>
-                <li><a href="#">Корзина</a></li>
-            </ul>
+            <nav class="header-nav">
+                <div class="logo"><img src="./img/Logo.svg" alt=""></div>
+                <ul class="header-nav__list">
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Доставка и оплата</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Спецпредложения</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Корзина</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
@@ -39,7 +43,7 @@
                 <div class="promo-foto1"><img src="./img/unsplash 1.jpg" width="386px" height="404px" alt=""></div>
                 <div class="promo-foto2"><img src="./img/unsplash 2.jpg" width="387px" height="420px" alt=""></div>
             </section>
-            <div class="benefits">
+            <section class="benefits">
                 <div class="benefits-delivery">
                     <img src="./img/car.svg" alt="">
                     <div class="benefits-delivery__text">
@@ -63,7 +67,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </section>
             <section class="slider">
                 <h2>Популярные букеты</h2>
                 <div class="slider-card">
@@ -104,7 +108,7 @@
                 </div>
 
             </section>
-            <div class="steps">
+            <section class="steps">
                 <h2>4 шага к идеальному букету</h2>
                 <div class="steps-container">
                     <div class="steps-1">
@@ -128,19 +132,19 @@
                         <p>Выбирите понравившейся букет из каталога и оформите заказ</p>
                     </div>
                 </div>
-            </div>
-            <div class="news">
+            </section>
+            <section class="news">
                 <div class="news-text">
                     <h2>Следите за нашими новостями</h2>
                     <p>Подписывайтесь на наши соцсети и узнавайте
                         о новинках и акциях первым.</p>
                     <div class="news-social">
-                        <img src="./img/instagram_icon.svg" alt="">
-                        <img src="./img/facebook_icon.svg" alt="">
-                        <img src="./img/twitter_icon.svg" alt="">
+                        <a href=""><img src="./img/instagram_icon.svg" alt=""></a>
+                        <a href=""><img src="./img/facebook_icon.svg" alt=""></a>
+                        <a href=""><img src="./img/twitter_icon.svg" alt=""></a>
                     </div>
                 </div>
-            </div>
+            </section>
             <div class="reviews">
                 <h2>Отзывы</h2>
                 <div class="reviews-1">
@@ -171,25 +175,26 @@
                 <p>+ 7 (812) 983-47-19</p>
                 <p>Напишите нам:</p>
                 <p>info@botanika.ru</p>
-
             </div>
         </div>
     </main>
 
     <footer>
         <div class="fool-container">
-            <div class="logo"><img src="./img/Logo.svg" alt=""></div>
-            <ul>
-                <li><a href="">Каталог</a></li>
-                <li><a href="">Доставка и оплата</a></li>
-                <li><a href="">Отзывы</a></li>
-                <li><a href="">Спецпредложения</a></li>
-                <li><a href="">Контакты</a></li>
-            </ul>
-            <div class="news-social">
-                <img src="./img/instagram_icon.svg" alt="">
-                <img src="./img/facebook_icon.svg" alt="">
-                <img src="./img/twitter_icon.svg" alt="">
+            <div class="container">
+                <div class="logo"><img src="./img/Logo.svg" alt=""></div>
+                <ul>
+                    <li><a href="">Каталог</a></li>
+                    <li><a href="">Доставка и оплата</a></li>
+                    <li><a href="">Отзывы</a></li>
+                    <li><a href="">Спецпредложения</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+                <div class="news-social">
+                    <img src="./img/instagram_icon.svg" alt="">
+                    <img src="./img/facebook_icon.svg" alt="">
+                    <img src="./img/twitter_icon.svg" alt="">
+                </div>
             </div>
         </div>
     </footer>

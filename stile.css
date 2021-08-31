@@ -1,0 +1,133 @@
+.header {
+    border: 1px solid #ae7c78;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    margin-top: 26px;
+}
+.container {
+    width: 1200px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.header-nav {
+    display: grid;
+    grid-template-columns: ;
+}
+.header-nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav__list > li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ae7c78;
+    list-style-type: none;
+}
+.header-nav__list > li:last-child {
+}
+.header-nav__list a {
+    color: #ae7c78;
+    text-decoration: none;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+.promo {
+    display: flex;
+}
+.promo-text {
+}
+.promo-foto1 {
+}
+.promo-foto2 {
+}
+.benefits {
+    display: flex;
+}
+.benefits-delivery {
+}
+.benefits-delivery__text {
+}
+.benefits-flowers {
+}
+.benefits-flowers__text {
+}
+.benefits-foto {
+}
+.slider {
+}
+.slider-card {
+    display: flex;
+}
+.slider-card__text {
+}
+.slider-card__foto {
+}
+.slider-arrow {
+    display: flex;
+}
+.arrow-left {
+}
+.arrow-right {
+}
+.foto {
+}
+.foto-bouquet {
+    display: flex;
+}
+.foto-bouquet__vid1 {
+}
+.foto-bouquet__vid2 {
+}
+.foto-bouquet__vid3 {
+}
+.foto-skidka {
+    display: flex;
+}
+.foto-skidka__text {
+}
+.foto-skidka__bouquet {
+}
+.steps {
+}
+.steps-container {
+    display: flex;
+}
+.steps-1 {
+}
+.steps-2 {
+}
+.steps-3 {
+}
+.steps-4 {
+}
+.news {
+}
+.news-text {
+}
+.news-social {
+}
+.reviews {
+    display: flex;
+}
+.reviews-1 {
+}
+.reviews-2 {
+}
+.reviews-3 {
+}
+.address {
+}
+.fool-container {
+}
