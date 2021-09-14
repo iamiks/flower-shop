@@ -1,4 +1,5 @@
-body {
+body,
+p {
     font-family: "Montserrat", sans-serif;
     color: #ae7c78;
 }
@@ -34,7 +35,6 @@ a {
 }
 h1 {
     margin: 0;
-
     font-style: normal;
     font-weight: normal;
     font-size: 44px;
@@ -53,9 +53,10 @@ h1 > span {
 .header-nav a {
     text-decoration: none;
 }
-
-.logo {
+.header-nav a:hover {
+    color: black;
 }
+
 .promo {
     margin-top: 70px;
     height: 475px;
@@ -179,8 +180,7 @@ h1 > span {
     font-size: 24px;
     line-height: 29px;
 }
-.slider-card__foto {
-}
+
 .slider-arrow {
     display: flex;
     justify-content: center;
@@ -188,22 +188,47 @@ h1 > span {
 .arrow-left {
     margin-right: 20px;
 }
-.arrow-right {
-}
+
 .foto {
     margin-top: 80px;
 }
 .foto-bouquet {
     display: flex;
+    justify-content: space-between;
 }
-.foto-bouquet__vid1 {
-    margin-right: 20px;
+.foto-bouquet__vid {
+    position: relative;
 }
-.foto-bouquet__vid2 {
-    margin-right: 20px;
+.foto-bouquet__vid img {
+    background-image: url("./img/Rectangle.png");
 }
-.foto-bouquet__vid3 {
+
+.foto-bouquet__vid h2 {
+    position: absolute;
+    top: 38%;
+    left: 10%;
+    transform: translate(-5%, -40%);
+    color: #fff;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
 }
+.foto-bouquet__vid p {
+    position: absolute;
+    top: 53%;
+    left: 35%;
+    transform: translate(-25%, -40%);
+    color: #fff;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
 .foto-skidka {
     display: flex;
     margin-top: 80px;
@@ -223,13 +248,14 @@ h1 > span {
     letter-spacing: 0.02em;
     padding-top: 0px;
     padding-left: 100px;
+    color: #ffffff;
 }
 .foto-skidka__text p {
     display: block;
-
+    color: #ffffff;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 24px;
     line-height: 29px;
     padding-top: 0px;
     padding-left: 100px;
